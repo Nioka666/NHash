@@ -64,21 +64,21 @@ NHash provides two main commands: encrypt and decrypt. You can choose from diffe
 ## Encrypting
 
 1. Farnet Encryption
-  ```bash
+    ```bash
     python3 NHash.py encrypt -m fernet -t "Your sensitive text" -o encrypted.txt
 
 2. AES Encryption
-  ```bash
+    ```bash
     python3 NHash.py decrypt -m aes -i encrypted.txt -k aes_key.key -iv iv_aes.key
 
 ## Decrypting
 
 1. Farnet Decryption
-  ```bash
+    ```bash
     python3 NHash.py decrypt -m fernet -i encrypted.txt
 
 2. AES Decryption
-  ```bash
+    ```bash
     python NHash.py decrypt -m aes -i encrypted.txt -k aes_key.key -iv iv_aes.key
 
 # Contributing
