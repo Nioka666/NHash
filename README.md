@@ -56,9 +56,33 @@ Before you can use NHash, ensure you have the following prerequisites installed:
 4. Run NHash !
   ```bash
   python3 NHash.py
-  ```
-## Usages
+
+# Usages
 
 NHash provides two main commands: encrypt and decrypt. You can choose from different encryption methods and provide the required input and options as needed.
+
+## Encrypting
+
+1. Farnet Encryption
+  ```bash
+  python3 NHash.py encrypt -m fernet -t "Your sensitive text" -o encrypted.txt
+
+2. AES Encryption
+  ```bash
+  python3 NHash.py decrypt -m aes -i encrypted.txt -k aes_key.key -iv iv_aes.key
+
+## Decrypting
+
+1. Farnet Decryption
+  ```bash
+  python3 NHash.py decrypt -m fernet -i encrypted.txt
+
+2. AES Decryption
+  ```bash
+  python NHash.py decrypt -m aes -i encrypted.txt -k aes_key.key -iv iv_aes.key
+
+# Contributing
+
+If you'd like to contribute to NHash or report issues, please check our contribution guidelines. and Thanks ..
 
 
