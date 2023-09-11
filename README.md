@@ -54,7 +54,7 @@ Before you can use NHash, ensure you have the following prerequisites installed:
     pip install -r requirements.txt
 
 4. Run NHash !
-  ```bash
+    ```bash
     python3 NHash.py
 
 # Usages
