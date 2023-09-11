@@ -31,7 +31,7 @@ NHash is a Python-based command-line tool that provides secure text encryption a
 
 ## Installation
 
-### Prerequisites
+### Pre-Requisites
 
 Before you can use NHash, ensure you have the following prerequisites installed:
 
@@ -50,7 +50,15 @@ Before you can use NHash, ensure you have the following prerequisites installed:
     cd NHash
 
 3. Install the required dependencies:
-```bash
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
-## Usage
+4. Run NHash !
+  ```bash
+  python3 NHash.py
+  ```
+## Usages
+
+NHash provides two main commands: encrypt and decrypt. You can choose from different encryption methods and provide the required input and options as needed.
+
+
