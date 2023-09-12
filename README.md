@@ -1,4 +1,4 @@
-#NHash - Secure Text Encryption and Decryption Tool
+# NHash - Secure Text Encryption and Decryption Tool
 
 NHash is a Python-based command-line tool that provides secure text encryption and decryption using various encryption methods. It supports multiple encryption techniques, including Fernet, PBKDF2, RSA, and AES. This tool is designed to help users protect their sensitive text data with strong encryption algorithms.
 
